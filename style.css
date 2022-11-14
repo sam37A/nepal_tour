@@ -1,0 +1,164 @@
+*{
+     margin:0;
+     padding: 0;
+     box-sizing: border-box;
+     
+}
+
+nav{
+    padding-top: 100px;
+    height: 100vh;
+    padding:25px;
+    background-color: rgb(180, 238, 240);
+    display: flex;
+    justify-content: space-between;
+    
+    background-image: url(./img/airplane.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+   
+   
+}
+
+ul{
+ display: flex;  
+
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    
+   
+    text-decoration: none;
+    margin:20px;
+    font-size: 20px;
+    color:white;
+    
+}
+ul li a:hover{
+    border-bottom: 3px solid white;
+}
+
+/* hero section */
+.hero-section{
+    display: flex;
+    justify-content: center;
+    
+  
+}
+
+.hero-section h1{
+font-size: 50px;
+position:absolute;
+bottom:50px;
+
+
+}
+/* venture section */
+html{
+    scroll-behavior: smooth;
+}
+
+.adventure-section h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.adventure-container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adventure-container{
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
+    
+}
+
+.cali-ktm{
+    width: 600px;
+    /* height: 500px; */
+    margin:10px;
+    border-radius: 10px;
+}
+.advimg{
+/* height: 700px; */
+width: 100%;
+height: 500px;
+border-radius: 10px;
+
+}
+a{
+   text-decoration: none;
+   color:black;
+    
+}
+
+
+
+/*  adventure section 2 */
+.adventure-section h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+   
+}
+
+.visit-gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+   
+   
+}
+.gallery-container img{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.pashupati-img{
+    width: 400px;
+    margin:10px;
+    
+}
+
+/* footer */
+footer{
+    padding-top:20px;
+    background-color: black;
+}
+
+.copy-right h5{
+    color:white;
+}
+
+.footer-container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ 
+}
+
+.social-media, .copy-right, .nav-links{
+    padding: 5px;
+   
+}
+.social-media a{
+   padding:10px;
+   font-size: 15px;
+   color: white;
+   background-color: rgb(12, 71, 219);
+   border-radius: 100%;
+    
+}
